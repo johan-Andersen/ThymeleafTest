@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Friday</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+
+
+<h2>Is it Monday?</h2>
+<span th:if="${today} == 'monday'">ye</span>
+<span th:unless="${today == 'monday'}">nah</span>
+<h2>Is it Tuesday?</h2>
+<span th:if="${today} == 'tuesday'">ye</span>
+<span th:unless="${today == 'tuesday'}">nah</span>
+<h2>Is it Wednesday?</h2>
+<span th:if="${today} == 'wednesday'">ye</span>
+<span th:unless="${today == 'wednesday'}">nah</span>
+<h2>Is it Thursday?</h2>
+<span th:if="${today} == 'thursdag'">ye</span>
+<span th:unless="${today == 'thursdag'}">nah</span>
+<h2>Is it Friday?</h2>
+<span th:if="${today} == 'friday'">ye</span>
+<span th:unless="${today == 'friday'}">nah</span>
+<h2>Is it Saturday?</h2>
+<span th:if="${today} == 'saturday'">ye</span>
+<span th:unless="${today == 'saturday'}">nah</span>
+<h2>Is it Sunday?</h2>
+<span th:if="${today} == 'sunday'">ye</span>
+<span th:unless="${today == 'sunday'}">nah</span>
+
+
+</body>
+</html>
